@@ -1,0 +1,965 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; 
+}
+div:before,
+div:after,
+.clear:before,
+.clear:after {
+  content: " ";
+  display: table;
+}
+
+div:after,
+.clear:after {
+  clear: both;
+}
+body {
+  background: #353334;
+  font-family: "Roboto", sans-serif;
+}
+.container{
+  margin: 0 auto;
+ /* margin-top:148px;
+  margin-left:76px;*/
+  max-width: 1690px;
+  width: 100%;
+  
+}
+div.top {
+  width: 75%;
+  margin: 0 auto;
+  font-size: .8em;
+  /*color: #666;*/
+  color: rgba(0,0,0,.5);
+  background-color:#fff;
+  }
+
+
+div.top p { 
+  line-height: 1.5;
+  }
+.review-goal-header {
+  margin: 20px 10px 15px 15px;
+  font-size: 1.1em;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1; 
+  text-shadow: 0 1px 1px #fff;
+  color: #222;
+  }
+
+.review-goal-header{
+  padding-top:5px;
+  margin-left:25px;
+}
+.goal{
+   padding-left:15px;
+}
+.plus{
+   padding-left:5px;
+   margin-top:2px;
+}
+
+.reviews {
+  float:left;
+  width:50%;
+  border: 2px solid rgba(0,0,0,.25);
+  border-right:0.5px solid rgba(0,0,0,.25);
+  border-bottom:none;
+  background: rgba(255,255,255,.98);
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  }
+.calendar{
+  size:50px;
+  position:relative;
+  left:330px;
+  color:white;#87CEEB;
+}
+.goals {
+  float:left;
+  width:50%;
+  border: 2px solid rgba(0,0,0,.25);
+  border-left:none;
+  border-bottom:none;
+  background: rgba(255,255,255,.98);
+  -webkit-border-radius: 1px;
+  -moz-border-radius: 1px;
+  border-radius: 1px;
+  }
+
+#revd{
+  padding-top:17px;
+  padding-left:14px;
+  padding-bottom:19px;
+  border-top: 1px solid rgba(0,0,0,.25);
+  border-right: 55px solid rgba(0,191,255,.95);
+  border-bottom: 1px solid rgba(0,0,0,.25);
+  border-left: 6px solid rgba(0,191,255,.95);
+  width:92.0%;
+  margin: 0 15px 0 15px;
+  background:#F0F8FF;
+}
+.label-space{
+   padding-left:10px;
+}
+#rev{
+  transform: scale(1.5);
+  padding-left: 20px;
+}
+#vert{
+  border:2px;
+  margin-left:100px;
+  padding-left: 1px;
+  background-color:#1E90FF;
+}
+.due2{
+  margin-left:176px;
+  background-color:#D06A6A;
+  color:white;
+  border:0.5px solid rgba(0,0,0,.25);
+  text-transform:uppercase;
+  font-size:0.85em;
+  padding:2px 5px 2px 5px;
+}
+.due2 .due{
+  text-align:center;
+}
+.after-excl{
+  padding-left:8px;
+}
+.due{
+  font-size:0.85em;
+  padding:2px 5px 2px 5px;
+  margin-left:273px;
+  background-color:#DCDCDC;
+  text-transform:uppercase;
+}
+.due-week{
+    margin-left: 170px; 
+    font-size:0.85em;
+    padding:2px 5px 2px 5px;
+    background-color:#DCDCDC;
+    text-transform:uppercase;
+}
+.metric{
+  padding-top:18px;
+  padding-left:17px;
+  padding-bottom:18px;
+  border-bottom: 1px solid rgba(0,0,0,.25);
+  margin:0 15px 0 15px;
+  
+}
+.metric-last{
+  padding-top:18px;
+  padding-left:17px;
+  padding-bottom:18px;
+  border-bottom: none;
+  margin:0 15px 0 15px;
+  
+}
+.goal-complt{
+  padding-top:18px;
+  padding-left:17px;
+  padding-bottom:18px;
+  border-bottom: 1px solid rgba(0,0,0,.25);
+  width:92%;
+  margin: 0 15px 0 15px;
+}
+.await-score{
+  margin-left:165px;
+  background-color:#FF8C00;
+  color:white;
+  border:0.5px solid rgba(0,0,0,.25);
+  text-transform:uppercase;
+  font-size:0.85em;
+  padding:2px 5px 2px 5px;
+}  
+.goal-set-last{
+  padding-top:18px;
+  padding-left:17px;
+  padding-bottom:18px;
+  border-bottom: none;
+  width:92%;
+  margin: 0 15px 0 15px;
+}
+
+.goal-set{
+  padding-top:18px;
+  padding-left:17px;
+  padding-bottom:18px;
+  border-bottom: 1px solid rgba(0,0,0,.25);
+  width:92%;
+  margin: 0 15px 0 15px;
+}
+.await-approve{
+  margin-left:208px;
+  background-color:#FFA500;
+  color:white;
+  border:0.5px solid rgba(0,0,0,.25);
+  text-transform:uppercase;
+  font-size:0.85em;
+  padding:2px 5px 2px 5px;
+} 
+.middle{
+  
+  margin: 0 auto;
+  width:75%;
+  height: 70px;
+  border-top: 1px solid rgba(0,0,0,.25);
+  border-right: 1px solid rgba(0,0,0,.25);
+  border-left: 1px solid rgba(0,0,0,.25);
+  background:#E5F3FF;
+}
+.people{
+   position:relative;
+   margin-top:15px;
+   left: 450px; 
+   width: 160px;
+   height: 37px;
+   border: 1px solid rgba(204,204,204);
+   background:#ffffff;
+ 
+}
+.people .fa-user {
+    position: relative;
+    top:10px;
+    left:25px;
+    color:grey;
+}
+.people span{
+   position:relative;
+   color:grey;
+   padding-left:25px;
+   top:9px; 
+   font-size: 14px;
+}
+.fa-caret-up{
+    position:relative;
+    top:5px;
+    left:3px;
+    color:grey;
+}
+.fa-sort{
+    position:relative;
+    top:10px;
+    right: -6px;
+    color:grey;
+} 
+.bottom{
+    margin: 0 auto;
+    width:75%;
+    height: 552px;
+    border-top: 1px solid rgba(0,0,0,.25);
+    border-right: 1px solid rgba(0,0,0,.25);
+    border-bottom: 1px solid rgba(0,0,0,.25);
+    border-left: 1px solid rgba(0,0,0,.25);
+    background: #CBE7FF;
+}
+.review-feedback-section{
+  float:left;
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  margin: 25px 27px 0 27px; 
+  background:#fffffe;
+  width:30%;
+  height:293px;
+}
+
+.review-feedback-header {
+    margin: 0 auto;
+    padding:15px 0 0 20px;
+    font-size: 0.68m;
+    font-weight: normal;
+    line-height: 1; 
+    text-shadow: 0 1px 1px #fff;
+    color: #222;
+    opacity:0.6;
+    background: #F5FFFF;
+    border-bottom: 2px solid rgba(0,0,0,.25);
+    height:48px;
+   /* width:32;*/
+}
+
+.square{
+    width:30px;
+    height:30px;
+    position:relative;
+    margin-left:250px;
+    margin-top:-22px;
+    border: 2px solid rgba(0,0,0,.25);
+    border-radius: 4px;
+}
+.filet{
+   position:relative;
+   left:6px;
+   top:4px;
+  opacity:0.7;
+}
+.review-feed-back{
+     list-style:none;
+     margin:0;
+     padding:0;
+}
+.vert-line {
+    position:absolute;
+    height:242px;
+    width:0;
+    border:0;
+    border-left:1px;
+    border-style:dotted;
+    border-color:#;
+    opacity:0.3;
+    margin-left: 5.4em;
+    z-index:0;
+}
+.all-reviews{
+    margin-top:0.7em;
+    height:70px;
+    border-bottom: 2px solid rgba(0,0,0,.25);
+    z-index: -1;
+}
+li.all-reviews:last-child{
+    border-bottom: none;
+}
+.score-85-txt, .score-82-txt, .score-76-txt {
+   font-size: 2.8em;  
+   opacity: 0.5;
+   padding-left: 0.5em;
+   padding-top:0.15em;
+ 
+}
+.bottom-desc{
+    margin-left: 7em;
+}
+
+.circle-wrapper{
+    margin-top:-2.1em;
+    padding-left:5em;
+
+}
+
+.review-last-wrapper{
+    padding-left: 7em;
+    margin-top:-1.8em;
+}
+/* bar chart below review goal */
+div.css_bar_graph
+  {
+    width:314px;
+    height: 210px;
+    padding: 0px 0px 0px 50px;
+  /* --- font --- */
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    color:#fff;  
+    background-color:#f8f8f8;
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
+    border-top:none;
+    border-left: none;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: none;
+  }
+
+/* ------ lists ------ */
+div.css_bar_graph ul
+  {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  }
+div.css_bar_graph li
+  {
+  margin: 0px;
+  padding: 0px;
+  }
+
+/* ==================== Y-AXIS LABELS ==================== */
+/* ------ base ------ */
+div.css_bar_graph ul.y_axis
+  {
+  width: 40px;
+  position: absolute;
+  top: 35px; 
+  left: 0px;
+  text-align: right;
+  }
+
+/* ------ labels ------ */
+div.css_bar_graph ul.y_axis li
+  {
+  width: 100%;
+  height: 27px;
+  float: left;
+  color: #888888;
+  /* --- alignment correction --- */
+  border-top: 1px solid transparent;
+  position: relative;
+  top: -10px; /* value = font height */
+  } 
+/* ==================== X-AXIS LABELS  ==================== */
+/* ------ base ------ */
+div.css_bar_graph ul.x_axis
+  {
+    width: 100%;
+    height: 63px;
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+    text-align: center;
+    font-size:12px;
+  }
+
+/* ------ labels ------ */
+div.css_bar_graph ul.x_axis li
+  {  
+  display: inline;
+  width: 90px;
+  float: left;
+  color:#000;
+  }
+
+/* ==================== GRAPH  ==================== */
+/* ------ base ------ */
+div.css_bar_graph div.graph
+  {
+  width: 100%;
+  height: 100%;
+  float: left;
+  }
+/* ------ grid ------ */
+div.css_bar_graph div.graph ul.grid
+  {
+  width: 100%;
+  }
+
+/* ------ other browsers grid ------ */
+div.css_bar_graph div.graph li
+  {
+  width: 100%;
+  height: 29px; /* 50px including border */
+  float: left;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f8f8f8;
+  }
+div.css_bar_graph div.graph li:last-child{
+    border-bottom: 1px solid #e5e5e5;  
+}
+
+/* ==================== BARS COMMON  ==================== */
+/* ------ common styles ------ */
+div.css_bar_graph div.graph li.bar
+  {
+  width: 45px;
+  float: left;
+  position: absolute;
+  bottom: 65px;
+  text-align: center;
+
+  }
+  
+/* ------ bars positions ------ */
+  
+div.css_bar_graph div.graph li.nr_2
+  { 
+  left: 90px;  
+  }
+  
+div.css_bar_graph div.graph li.nr_4
+  {
+   left: 168px;
+  
+  }
+  
+
+/* ==================== BLUE BAR  ==================== */
+/* ------ base ------ */
+div.css_bar_graph div.graph li.blue
+  {
+  background: #208faf;  /* --- IE --- */
+  background: rgba(32,143,175,0.8);
+  }
+.top-bar{
+   padding-top: 15px;
+}
+
+div.review-on-demand{
+    position:absolute;
+    margin-top: 170px;
+    left:0px;
+    background:#1E90FF;
+    width:314px;
+    height:40px;
+}
+.fa-calendar-check-o{
+    position:relative;
+    margin-top: 17px;
+    margin-left: 70px;
+    background:white;
+    color:blue;
+    width:12px;
+  
+}
+div.review-on-demand span{
+    position:relative;
+    padding-left:10px;
+    top:0px;
+    color: white;
+    font-style:bold;
+    font-size:14px;
+    text-align:center;
+    letter-spacing: 0.15px;
+  
+}
+
+/* Goal progress panel */
+
+.goal-progress-section{
+  float:left;
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  margin: 25px 27px 0 0px; 
+  background:#fffffe;
+  width:30%;
+  height:483px;
+}
+.goal-progress-header {
+    margin: 0 auto;
+    padding:15px 0 0 20px;
+    font-size: 0.68m;
+    font-weight: normal;
+    line-height: 1; 
+    text-shadow: 0 1px 1px #fff;
+    color: #222;
+    opacity:0.6;
+    background: #F5FFFF;
+    border-bottom: 2px solid rgba(0,0,0,.25);
+    height:48px;
+}
+
+.all-employees{
+   /* margin-top:0.7em;*/
+    height:81px;
+    border-bottom: 1px solid rgba(0,0,0,.25);
+    z-index: -1;
+}
+.employee{
+  padding-top:0.7em;
+}
+.all-employees:last-child{
+    border-bottom: none;
+}
+.employee-meta{
+    margin-left: 65px;
+    margin-top: -45px;
+    
+}
+.employee-image{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+li.all-employees:nth-child(even){
+    background:#f8f8f8;
+}
+.employee-meta{
+  padding-left:5px;
+}
+.chart-90{
+    margin-top:5px;
+    width: 190px;
+    height: 17px;
+    background: #87CEEB;
+    border-radius: 0.25em .25em .25em .25em;
+}
+
+.percent-90{
+    margin-left: 200px;
+    color:  #87CEEB;
+    font-size:13px;
+    font-style: bold;
+    font-weight:700;
+    opacity:0.9;
+}
+
+.chart-83{
+    margin-top:5px;
+    width: 160px;
+    height: 17px;
+    background: #87CEEB;
+    border-radius: 0.25em .25em .25em .25em;
+}
+.percent-83{
+    margin-left: 170px;
+    color:  #87CEEB;
+    font-size:13px;
+    font-style: bold;
+    font-weight:700;
+    opacity:0.9;
+}
+.chart-75{
+    margin-top:5px;
+    width: 140px;
+    height: 17px;
+    background: #87CEEB;
+    border-radius: 0.25em .25em .25em .25em;
+}
+.percent-75{
+    margin-left: 150px;
+    color:  #87CEEB;
+    font-size:13px;
+    font-style: bold;
+    font-weight:700;
+    opacity:0.9;
+}
+.chart-47{
+    margin-top:5px;
+    width: 100px;
+    height: 17px;
+    background-color: red;
+    border-radius: 0.25em .25em .25em .25em;
+    opacity:0.5;
+}
+.percent-47{
+    margin-left: 110px;
+    color:  red;
+    font-size:13px;
+    font-style: bold;
+    font-weight:700;
+    opacity:0.6;
+}
+.chart-20{
+    margin-top:5px;
+    width: 60px;
+    height: 17px;
+    background: red;
+    border-radius: 0.25em .25em .25em .25em;
+    opacity:0.6;
+}
+.percent-20{
+    margin-left: 70px;
+    color:  red;
+    font-size:13px;
+    font-style: bold;
+    font-weight:700;
+    opacity:0.6;
+}
+
+div.manage-goals{
+    position:relative;
+    top: 7px;
+    left:0px;
+    background:#1E90FF;
+    width:314px;
+    height:40px;
+}
+.fa-calendar-check-o {
+    position:relative;
+    margin-top: 11px;
+    background:white;
+    color:blue;
+    width:12px;
+    text-align:center;
+  
+}
+.fa-folder-o{
+    position:relative;
+    margin-top: 11px;
+    margin-left: 80px;
+    background:white;
+    color:blue;
+    width:12px;
+    text-align:center;  
+}
+div.manage-goals span{
+    position:relative;
+    padding-left:10px;
+    top:0px;  
+    color: white;
+    font-style:bold;
+    font-size:14px;
+    letter-spacing: 0.15px;
+  
+}
+
+/* notes section */
+
+.notes-section{
+    float:left;
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
+    margin: 25px 0 0 0;
+    background:#fffffe;
+    width:30%;
+    height:483px;
+}
+.notes-header{
+  margin: 0 auto;
+  padding:15px 0 0 20px;
+  font-size: 0.68m;
+  font-weight: normal;
+  line-height: 1; 
+  text-shadow: 0 1px 1px #fff;
+  color: #222;
+  opacity:0.6;
+  background: #F5FFFF;
+   border-bottom: 2px solid rgba(0,0,0,.25);
+  height:48px;
+}
+/* -------- pie chart --*/
+
+
+.pie {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin-top: 15px;
+  margin-left:70px;
+}
+
+.pie .master {
+  position: absolute;
+  background:#ED4068; #6DD0F2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 100%;
+  opacity:0.7;
+}
+.score{
+  position:absolute;
+  margin-top:35px;
+  left: 23px;
+  font-size:40px;
+  letter-spacing: 1px;
+  opacity:0.5;
+  color:#000;
+}
+.pie .slice {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 100%;
+  clip: rect(0px, 200px, 200px, 100px);
+}
+
+.pie .slice .inner {
+  position: absolute;
+  background: #2A96BA;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 100%;
+  clip: rect(0px, 100px, 200px, 0px); 
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s;
+}
+
+.pie .cover {
+  background:white; #363A42;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 100%;
+}
+
+div.under-pie{
+  position:relative;
+  margin-left:-30px;
+  padding-left:12px;
+  margin-top:10px;
+}
+div.under-pie ul{
+  list-style:none;
+
+}
+div.under-pie li{
+  display:inline-block;
+  font-size:14px;
+  opacity:0.7;
+}
+.circle{
+   position:relative;
+   padding-left:10px;
+}
+.circle-word{
+   padding-left:2px;
+}
+/*----------- notes bar chart --------------*/
+
+/* bar chart below review goal */
+div.notes_bar_graph
+  {
+    top: 14px;
+    width:314px;
+    height: 210px;
+    padding: 0px 0px 0px 50px;
+  /* --- font --- */
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    font-weight: normal;
+    color:#fff;  
+    background-color:#f8f8f8;
+    position: relative; 
+    margin-left: auto;
+    margin-right: auto;
+    border-top:none;
+    border-left: none;
+    border-right: 1px solid #d5d5d5;
+    border-bottom: none;
+  }
+
+/* ------ lists ------ */
+div.notes_bar_graph ul
+  {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  }
+div.notes_bar_graph li
+  {
+  margin: 0px;
+  padding: 0px;
+  }
+
+/* ==================== Y-AXIS LABELS ==================== */
+/* ------ base ------ */
+div.notes_bar_graph ul.y_axis
+  {
+  width: 40px;
+  position: absolute;
+  top: 35px; 
+  left: 0px;
+  text-align: right;
+  }
+
+/* ------ labels ------ */
+div.notes_bar_graph ul.y_axis li
+  {
+  width: 100%;
+  height: 27px;
+  float: left;
+  color: #888888;
+  /* --- alignment correction --- */
+  border-top: 1px solid transparent;
+  position: relative;
+  top: -10px; /* value = font height */
+  } 
+/* ==================== X-AXIS LABELS  ==================== */
+/* ------ base ------ */
+div.notes_bar_graph ul.x_axis
+  {
+    width: 100%;
+    height: 63px;
+    position: absolute;
+    bottom: 0px;
+    left: 60px;
+    text-align: center;
+    font-size:12px;
+  }
+
+/* ------ labels ------ */
+div.notes_bar_graph ul.x_axis li
+  {  
+  display: inline;
+  width: 90px;
+  float: left;
+  color:#000;
+  }
+
+/* ==================== GRAPH  ==================== */
+/* ------ base ------ */
+div.notes_bar_graph div.graph
+  {
+  width: 100%;
+  height: 100%;
+  float: left;
+  }
+/* ------ grid ------ */
+div.notes_bar_graph div.graph ul.grid
+  {
+  width: 100%;
+  }
+
+/* ------ other browsers grid ------ */
+div.notes_bar_graph div.graph li
+  {
+  width: 100%;
+  height: 29px; /* 50px including border */
+  float: left;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f8f8f8;
+  }
+div.notes_bar_graph div.graph li:last-child{
+    border-bottom: 1px solid #e5e5e5;
+  
+}
+
+/* ==================== BARS COMMON  ==================== */
+/* ------ common styles ------ */
+div.notes_bar_graph div.graph li.bar
+  {
+  width: 45px;
+  float: left;
+  position: absolute;
+  bottom: 65px;
+  text-align: center;
+
+  }
+  
+/* ------ bars positions ------ */
+  
+div.notes_bar_graph div.graph li.nr_2
+  { 
+  left: 90px;  
+  }
+  
+div.notes_bar_graph div.graph li.nr_4
+  {
+   left: 168px;
+  
+  }
+  
+
+/* ==================== BLUE BAR  ==================== */
+/* ------ base ------ */
+div.notes_bar_graph div.graph li.blue
+  {
+  background: #208faf;  /* --- IE --- */
+  background: rgba(32,143,175,0.8);
+  }
+.top-bar{
+   padding-top: 15px;
+}
+
+div.ask-feedback{
+    position:relative;
+    top: -23px;
+    left:0px;
+    background:#1E90FF;
+    width:314px;
+    height:40px;
+}
+div.ask-feedback span{
+    position:relative;
+    padding-left:10px;
+    top:0px;  
+    color: white;
+    font-style:bold;
+    font-size:14px;
+    letter-spacing: 0.15px;
+  
+}
