@@ -1,0 +1,339 @@
+<html lang="en">
+    <head>
+   <title>HP Admin Web App UI/UX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+<div class="top">
+    <section class="reviews">
+       <div class="review-goal-header"> 
+           <span class="review-goal">Reviews</span>     
+           <span class="plus"><i class="fa fa-plus-square" aria-hidden="true" style="font-size:24px;color:#87CEEB";></i></span>     
+      </div>
+      <div id="revd">
+            <input type="checkbox"  id="rev" value="rev_checkbox">
+            <label for="rev"><span class="label-space">Field Revi</span>
+            </label>
+       
+        <span class="calendar"><i class="fa fa-calendar fa-lg" aria-hidden="true"></i></span>
+      </div> <!-- revd -->
+      <div class="metric">
+           <input type="checkbox"  id="rev" value="rev_checkbox">
+           <label for "rev"><span class="label-space">360 Monthly Team Review</span>
+           </label> 
+           <span class="due2"><span>!</span><span class="after-excl">Due in 2
+             days</span>                
+      </div> <!-- metric -->  
+      <div class="metric"> 
+           <input type="checkbox"  id="rev" value="rev_checkbox">
+           <label for "rev"><span class="label-space">Self Review</span></label>
+          <span class="due">Due in 5 days</span>
+      </div>   
+     <div class="metric-last"> 
+           <input type="checkbox"  id="rev" value="rev_checkbox">
+           <label for "rev"><span class="label-space">6-month Performance Review</span></label>
+           <span class="due-week">Due in 1 week</span>
+     </div>
+</section><!--review-->
+<section class="goals">
+    <div class="review-goal-header">
+        <span class="goal">Goals</span>
+        <span class="plus"><i class="fa fa-plus-square" aria-hidden="true" style="font-size:24px;color:#ADD8E6"></i></span>
+    </div>
+   <div class="goal-complt">
+           <input type="checkbox"  id="rev" value="rev_checkbox">
+           <label for "rev"><span class="label-space">5 Teams Goal Complete</span></label>
+           <span class="await-score">Awaiting Scoring</span>
+      </div><!-- goal-complt -->
+     <div class="goal-set"> 
+          <input type="checkbox"  id="rev" value="rev_checkbox">
+          <label for "rev"><span class="label-space">Team Goals Set</span>
+          </label>
+          <span class="await-approve">Awaiting Approval</span>
+      </div><!--Goals Set -->   
+      <div class="goal-set"> 
+          <input type="checkbox"  id="rev" value="rev_checkbox">
+          <label for "rev"><span class="label-space">1 Team Goal Overview
+            </span></label> 
+      </div><!-- goal set -->         
+     <div class="goal-set-last">
+           <input type="checkbox"  id="rev" value="rev_checkbox">
+           <label for "rev"><span class="label-space">5 Teams Goal Complete</span></label>
+      </div><!-- goal-complt -->            
+  </section> <!-- goals -->
+</div><!-- top -->
+<div class="middle">
+   <div class="people">
+       <a href="#">                     
+               <i class="fa fa-user"></i>
+        </a>    
+               <i class="fa fa-user"></i>
+     <span>Your Team</span>
+    <a href="#">
+      <i class="fa fa-sort" aria-hidden="true"></i>
+    </a>
+  </div>  
+</div>
+<div class="bottom">
+  
+    <section class="review-feedback-section">
+        <div class="review-feedback-header"> 
+            <scan class="review-feed">Review Feedback</scan>
+                <div class="square">
+                  <div class="filet">
+                    <i class="fa fa-file-text" aria-hidden="true"></
+                          style="size:36px;color:#87CEEB";>
+                   </i>
+                   </div>
+                </div>  
+        </div> <!-- review-feedback-header -->
+        <div class="vert-line"></div>
+  <!-- <section class="reviews"> -->      
+        <ul class="review-feed-back">
+            <li class="all-reviews">
+                <span class="score-85-txt">85</span>
+                <div class="circle-wrapper">
+                <span class"circle-85"><i class="fa fa-circle-o" aria-hidden="true" style="color:#9932CC"></i></span>
+               </div> <!-- circle-wrapper -->
+               <div class="review-last-wrapper"><span class="top-desc">Monthly-Check-n</span></div>
+               <div class="bottom-desc"> <span>Self review</span></div>
+          </li>   
+         <li class="all-reviews">
+                <span class="score-82-txt">82</span>
+                <div class="circle-wrapper">
+                     <span class"circle-82"><i class="fa fa-circle-o" aria-hidden="true" style="color:#FF8C00"></i></span>
+                </div> <!-- circle-wrapper -->  
+                <div class="review-last-wrapper"><span class="top-desc">Leadership-Assesment</span></div>
+                <div class="bottom-desc"> <span>Management Review</span></div>               
+         </li> <!-- score-82-txt --> 
+         <li class="all-reviews">
+              <span class="score-76-txt">76</span>
+              <div class="circle-wrapper">
+                   <span class"circle-76"><i class="fa fa-circle-o" aria-hidden="true" style="color:#FFA500";></i></span>
+               </div>  <!-- circle wrapper -->  
+               <div class="review-last-wrapper"><span class="top-desc">Team-Peer Assesment</span></div>
+               <div class="bottom-desc"> <span>360 Review</span></div>                       
+          </li> <!--score-76-txt-->                     
+       </ul> 
+    <!-- bar chart -->
+       <div class="css_bar_graph">
+      
+      <!-- y_axis labels -->
+      <ul class="y_axis">
+        <li>100</li><li>75</li><li>50</li><li>25</li><li></li>
+      </ul>
+      
+      <!-- x_axis labels -->
+      <ul class="x_axis">
+        <li>TEAM</li><li>COMPANY</li><li></li>
+      </ul>
+      
+      <!-- graph -->
+      <div class="graph">
+        <!-- grid -->
+        <ul class="grid">
+      
+          <li><!-- 100 --></li>
+          <li><!-- 75 --></li>
+          <li><!-- 50 --></li>
+          <li><!-- 25 --></li>
+          <li><!-- 0 --></li>
+          
+        </ul>
+        
+        <!-- bars -->
+        <!-- 250px = 100% -->
+        <ul>
+          <li class="bar nr_1 blue" style="height: 0px;"><div class="top-bar"></div></li>
+          <li class="bar nr_2 blue" style="height: 75px;"><div class="top-bar"><span>67</span></div></li>
+        
+          <li class="bar nr_4 blue" style="height: 105px;"><div class="top-bar"><span>83</span></div></li>
+        
+        </ul> 
+      </div><!--graph -->
+      
+          <!--</div>-->
+      <div class="review-on-demand">
+          <div class="cal-check">
+               <i class="fa fa-calendar-check-o" aria-hidden="true"
+           style=size:"30px"; background-color:white;></i>
+        <span>OnDemand Review</span>
+      </div>  
+ </section> <!-- reviews feedback -->
+                
+    <section class="goal-progress-section">      
+        <div class="goal-progress-header"> 
+            <scan class="note">Goal Progress</scan>     
+            <div class="square">
+                  <div class="filet">
+                    <i class="fa fa-bullseye" aria-hidden="true"></
+                          style="size:36px;color:#87CEEB";>
+                   </i>
+                   </div>
+                </div>  
+         </div><!-- goal-progress-header -->
+         <ul class="review-feed-back">
+             <li class="all-employees">
+                 <div class="employee">
+                      <div class="employee-image">
+                           <img src="http://i.imgur.com/whNPeyW.png" alt="employeename"  width="40px" height="40px" alt="Author">
+                         
+                      </div>
+                      <div class="employee-meta">
+                           <div class="employee-name">Vienna Calico - Project Lead
+                           </div> 
+                           <div class="chart-90">
+                                 <span class="percent-90">90%</span></div>
+                           </div>  <!-- employee meta -->
+               </div> <!--employee -->   
+           </li>
+           <li class="all-employees">
+                <div class="employee">
+                       <div class="employee-image">
+                            <img src="http://i.imgur.com/C7bTFk6.png"
+                                      alt="employeename"  width="40px" height="40px">
+                       </div>
+                      <div class="employee-meta">
+                           <div class="employee-name">Cameron Moll - Sales</div>    
+                           <div class="chart-83">
+                             <span class="percent-83">83%</span></div>
+                      </div><!-- employee meta -->
+                 </div><!--employee --> 
+           </li>
+           <li class="all-employees">
+                <div class="employee">
+                    <div class="employee-image">
+                        <img src="http://i.imgur.com/whNPeyW.png"
+                             alt="employee name"  width="40px" height="40px">
+                  </div>
+                  <div class="employee-meta">
+                      <div class="employee-name">Antony Lagon - Support</div>    
+                      <div class="chart-75">
+                        <span class="percent-75">75%</span></div>
+                  </div><!--employee-meta --> 
+              </div> <!-- employee -->   
+           </li>
+           <li class="all-employees">
+                <div class="employee">
+                     <div class="employee-image">
+                         <img src="http://i.imgur.com/C7bTFk6.png"
+                              alt="employee name"  width="40px" height="40px">
+                     </div>
+                     <div class="employee-meta">
+                         <div class="employee-name">Eric Hoffman - Tps Report Guru</div>
+                         <div class="chart-47">
+                           <span class="percent-47">47%</span></div>
+                     </div> <!--employee-meta -->
+               </div> <!-- emloyee -->
+           </li>
+           <li class="all-employees">
+               <div class="employee">
+                    <div class="employee-image">
+                        <img src="http://i.imgur.com/C7bTFk6.png"
+                             alt="employeename"  width="40px" height="40px">
+                    </div>   
+                    <div class="employee-meta">
+                         <div class="employee-name">Cosmo Kramer - Janitor</div>    
+                           <div class="chart-20">
+                             <span class="percent-20">20%</span></div>
+                    </div> <!-- employee-meta -->
+              </div>   <!-- employee -->
+           </li>
+          </ul>
+      
+      <div class="manage-goals">
+          <div class="cal-check">
+               <i class="fa fa-folder-o" aria-hidden="true"
+           style=size:"30px"; background-color:white;></i>
+        <span>Manage Goals</span>
+      </div>
+    </section> <!-- goal-progress -->
+    <section class="notes-section">
+        <div class="notes-header"> 
+            <scan class="note">Notes</scan>     
+            <div class="square">
+                  <div class="filet">               
+                    <i class="fa fa-file-text" aria-hidden="true"></
+                          style="size:36px;color:#87CEEB";>
+                   </i>
+                   </div>
+                </div>   
+        </div><!--notes-header -->
+         <!-- pie chart -->
+            <div class="pie" data-bind="donut: { value : angle }">
+  <div class="master">
+    <span class="score"></span>
+  </div>
+    <div class="slice">
+      <div class="inner"></div>
+      
+    </div>
+  <div class="cover"><span class="score">+25</span></div>
+</div>
+         
+         <!-- under pie chart -->
+          <div class="under-pie">
+           <ul>
+             <li>               <span class"circle"><i class="fa fa-circle-o" aria-hidden="true" style="color:#9932CC"></i></span><span class="circle-word">self</span>
+             </li>
+                <li> <span class="circle"><i class="fa fa-circle-o" aria-hidden="true" style="color:#6AA5E6"></i></span><span class="circle-word">positive</span>
+             </li>
+                <li>               <span class="circle"><i class="fa fa-circle-o" aria-hidden="true" style="color:#87CEEB"></i></span>
+                  <span class="circle-word">neutral</span>      
+             </li>
+                <li>               <span class="circle"><i class="fa fa-circle-o" aria-hidden="true" style="color:red"></i></span><span class="circle-word">negative</span>
+             </li>
+           </ul>  
+         </div
+           <!-- bar chart -->
+       <div class="notes_bar_graph">
+      
+      <!-- y_axis labels -->
+     <ul class="y_axis">
+        <li>60</li><li>45</li><li>30</li><li>15</li><li></li>
+      </ul>
+      
+      <!-- x_axis labels -->
+      <ul class="x_axis">
+        <li>TEAM</li><li>COMPANY</li><li></li>
+      </ul>
+      
+      <!-- graph -->
+      <div class="graph">
+        <!-- grid -->
+        <ul class="grid">
+      
+          <li><!-- 60 --></li>
+          <li><!-- 45 --></li>
+          <li><!-- 30 --></li>
+          <li><!-- 15 --></li>
+          <li><!-- 0 --></li>
+          
+        </ul>
+        
+        <!-- bars -->
+        <!-- 250px = 100% -->
+        <ul>
+          <li class="bar nr_1 blue" style="height: 0px;"><div class="top-bar"></div></li>
+          <li class="bar nr_2 blue" style="height: 77px;"><div class="top-bar"><span>41</span></div></li>
+        
+          <li class="bar nr_4 blue" style="height: 95px;"><div class="top-bar"><span>47</span></div></li>
+        
+        </ul> 
+      </div><!--graph -->     
+ </div>
+         
+     <div class="ask-feedback">
+          <div class="cal-check">
+               <i class="fa fa-calendar-check-o" aria-hidden="true"
+           style=size:"30px"; background-color:white;></i>
+        <span>Ask For Feedback</span>
+      </div>  
+    </section> <!-- notes --> 
+  </div><!--bottom -->
+ </div><!-- container -->
+  </body>
+  </html>
